@@ -1,0 +1,17 @@
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.dll
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.pdb
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.pri
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\Windows10.Study.Library.Background.csprojResolveAssemblyReference.cache
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\Windows10.Study.Library.Background.dll
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\Windows10.Study.Library.Background.pdb
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\priconfig.xml
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\priconfig.xml.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\layout.resfiles
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\layout.resfiles.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\resources.resfiles
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\resources.resfiles.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\pri.resfiles
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\pri.resfiles.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\qualifiers.txt
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\qualifiers.txt.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

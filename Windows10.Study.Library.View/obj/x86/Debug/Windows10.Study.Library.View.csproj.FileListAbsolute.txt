@@ -1,0 +1,17 @@
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.dll
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.pdb
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.pri
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\Windows10.Study.Library.View.csprojResolveAssemblyReference.cache
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\Windows10.Study.Library.View.dll
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\Windows10.Study.Library.View.pdb
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\priconfig.xml
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\priconfig.xml.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\layout.resfiles
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\layout.resfiles.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\resources.resfiles
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\resources.resfiles.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\pri.resfiles
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\pri.resfiles.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\qualifiers.txt
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\qualifiers.txt.intermediate
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
