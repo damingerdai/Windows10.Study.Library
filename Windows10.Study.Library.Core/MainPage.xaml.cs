@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,16 +27,55 @@ namespace Windows10.Study.Library.Core
     {
         public const string FEATURE_NAME = "Windows10开发学习";
 
-        List<Scenario> scenarios = new List<Scenario>();
+        List<Scenario> scenarios = new List<Scenario>()
+        {
+            new Scenario(){Title="首页",ClassType=typeof(Windows10.Study.Library.View.FirstPage)}
+        };
 
         public MainPage()
         {
             this.InitializeComponent();
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+
         }
 
         private void ToggleButton_Click(object sender, RoutedEventArgs e)
         {
             splitView.IsPaneOpen = (splitView.IsPaneOpen) ? false : true;
+        }
+
+        private void PageBackRequested(object sender, BackRequestedEventArgs e)
+        {
+            if (contentFrame == null)
+                return;
+            if (contentFrame.CanGoBack)
+            {
+                e.Handled = true;
+                contentFrame.GoBack();
+            }
+        }
+        /*
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            // Populate the scenario list from the SampleConfiguration.cs file
+            ScenarioControl.ItemsSource = scenarios;
+            if (Window.Current.Bounds.Width < 640)
+            {
+                ScenarioControl.SelectedIndex = -1;
+            }
+            else
+            {
+                ScenarioControl.SelectedIndex = 0;
+            }
+        }*/
+
+        private async void ScenariosLinkClick(object sender, ItemClickEventArgs e)
+        {
+            Scenario scenario = e.ClickedItem as Scenario;
+            if (scenario != null && scenario.ClassType != null)
+                contentFrame.Navigate(scenario.ClassType);
+            await new MessageDialog("ters").ShowAsync();
+            splitView.IsPaneOpen = false;
         }
     }
 }

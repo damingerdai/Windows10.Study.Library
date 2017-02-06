@@ -21,11 +21,20 @@
                 </ToggleButton>
             </Border>
         </StackPanel>
+        <!-- 这个Frame用于显示子Page页面。 -->
+        <Frame x:Name="contentFrame" Grid.Row="1"/>
         <SplitView x:Name="splitView" IsPaneOpen="True" DisplayMode="Inline" Grid.Row="1">
-            <RelativePanel Margin="10,0,0,0">
-                <TextBlock x:Name="splitViewTitle" Text="Windows10开发学习" Style="{StaticResource SampleHeaderTextStyle}" TextWrapping="Wrap" Margin="0,10,0,0"/>
-                
-            </RelativePanel>
+            <SplitView.Pane>
+                <RelativePanel Margin="10,0,0,0">
+                    <TextBlock x:Name="splitViewTitle" Text="Windows10开发学习"  TextWrapping="Wrap" Margin="0,10,0,0"/>
+                    <ListView x:Name="ScenarioControl" ItemsSource="{x:Bind Path=scenarios}" IsItemClickEnabled="True" ItemClick="ScenariosLinkClick" SelectionMode="None"/>
+                    <StackPanel x:Name="FooterPanel" Orientation="Vertical" RelativePanel.AlignBottomWithPanel="True">
+                        <TextBlock Text="源代码" FontStyle="Italic"/>
+                        <HyperlinkButton Content="GitHub" NavigateUri="https://github.com/damingerdai/Windows10.Study.Library" FontSize="12"  />
+                    </StackPanel>
+                </RelativePanel>
+            </SplitView.Pane>
+            
         </SplitView>
     </Grid>
 </Page>
