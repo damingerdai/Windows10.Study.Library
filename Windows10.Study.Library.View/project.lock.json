@@ -21962,10 +21962,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.View\\Windows10.Study.Library.View.csproj",
+      "projectUniqueName": "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.View\\Windows10.Study.Library.View.csproj",
       "projectName": "Windows10.Study.Library.View",
-      "projectPath": "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.View\\Windows10.Study.Library.View.csproj",
-      "projectJsonPath": "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.View\\project.json",
+      "projectPath": "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.View\\Windows10.Study.Library.View.csproj",
+      "projectJsonPath": "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.View\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

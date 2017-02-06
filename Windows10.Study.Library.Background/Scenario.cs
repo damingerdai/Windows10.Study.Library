@@ -10,5 +10,10 @@ namespace Windows10.Study.Library.Background
     {
         public string Title { get; set; }
         public Type ClassType { get; set; }
+
+        public override string ToString()
+        {
+            return Title;
+        }
     }
 }

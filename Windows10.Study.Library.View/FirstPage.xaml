@@ -11,9 +11,9 @@
         <ScrollViewer x:Name="scrollViewer" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
             <ScrollViewer.Content>
                 <RichTextBlock x:Name="rtTextBlock" TextIndent="38" FontSize="30">
-                    <Paragraph>
+                    <Paragraph TextIndent="0">
                         <InlineUIContainer>
-                            <StackPanel HorizontalAlignment="Center">
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
                                 <Image Source="/Image/win10.jpg" Stretch="Fill" />
                             </StackPanel>
                         </InlineUIContainer>

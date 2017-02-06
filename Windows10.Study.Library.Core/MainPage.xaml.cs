@@ -25,16 +25,19 @@ namespace Windows10.Study.Library.Core
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        public const string FEATURE_NAME = "Windows10开发学习";
+        public static MainPage Current;
 
-        List<Scenario> scenarios = new List<Scenario>()
+        private List<Scenario> scenarios = new List<Scenario>()
         {
-            new Scenario(){Title="首页",ClassType=typeof(Windows10.Study.Library.View.FirstPage)}
+            new Scenario(){ Title="首页",ClassType=typeof(Windows10.Study.Library.View.FirstPage)}
         };
+
+        public List<Scenario> Scenarios { get { return scenarios; } }
 
         public MainPage()
         {
             this.InitializeComponent();
+            Current = this;
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
 
         }
@@ -54,7 +57,7 @@ namespace Windows10.Study.Library.Core
                 contentFrame.GoBack();
             }
         }
-        /*
+       
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             // Populate the scenario list from the SampleConfiguration.cs file
@@ -67,15 +70,31 @@ namespace Windows10.Study.Library.Core
             {
                 ScenarioControl.SelectedIndex = 0;
             }
-        }*/
+        }
 
-        private async void ScenariosLinkClick(object sender, ItemClickEventArgs e)
+        private void ScenariosLinkClick(object sender, ItemClickEventArgs e)
         {
             Scenario scenario = e.ClickedItem as Scenario;
             if (scenario != null && scenario.ClassType != null)
                 contentFrame.Navigate(scenario.ClassType);
-            await new MessageDialog("ters").ShowAsync();
             splitView.IsPaneOpen = false;
+        }
+
+        private void ScenarioControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ListBox listBox = sender as ListBox;
+            if (listBox != null)
+            {
+                Scenario s = listBox.SelectedItems[0] as Scenario;
+                if(s != null)
+                {
+                    contentFrame.Navigate(s.ClassType);
+                    if (Window.Current.Bounds.Width < 640)
+                    {
+                        splitView.IsPaneOpen = false;
+                    }
+                }
+            }
         }
     }
 }

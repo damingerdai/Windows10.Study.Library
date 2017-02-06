@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6</PackageIdentityName>
     <PackageIdentityPublisher>CN=daming</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Core.exe">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Core.exe">
       <PackagePath>entrypoint\Windows10.Study.Library.Core.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\daming\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -367,62 +367,74 @@
     <AppxPackagedFile Include="C:\Users\daming\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.dll">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.dll">
       <PackagePath>Windows10.Study.Library.Background.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.dll">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.dll">
       <PackagePath>Windows10.Study.Library.View.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Image\msLogo.png">
+      <PackagePath>Image\msLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Image\tile-sdk.png">
+      <PackagePath>Image\tile-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Core.xr.xml">
-      <PackagePath>Windows10.Study.Library.Core.xr.xml</PackagePath>
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Image\win10.jpg">
+      <PackagePath>Image\win10.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.xr.xml">
-      <PackagePath>Windows10.Study.Library.View\Windows10.Study.Library.View.xr.xml</PackagePath>
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Image\Windows10.jpg">
+      <PackagePath>Image\Windows10.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\Image\win10.jpg">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\Image\win10.jpg">
       <PackagePath>Windows10.Study.Library.View\Image\win10.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\Image\Windows10.jpg">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\Image\Windows10.jpg">
       <PackagePath>Windows10.Study.Library.View\Image\Windows10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Core.xr.xml">
+      <PackagePath>Windows10.Study.Library.Core.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.xr.xml">
+      <PackagePath>Windows10.Study.Library.View\Windows10.Study.Library.View.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Core\Windows10.Study.Library.Core.exe">
+    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Core\Windows10.Study.Library.Core.exe">
       <PackagePath>Windows10.Study.Library.Core.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

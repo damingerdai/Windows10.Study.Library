@@ -22070,19 +22070,19 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.Core\\Windows10.Study.Library.Core.csproj",
+      "projectUniqueName": "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.Core\\Windows10.Study.Library.Core.csproj",
       "projectName": "Windows10.Study.Library.Core",
-      "projectPath": "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.Core\\Windows10.Study.Library.Core.csproj",
-      "projectJsonPath": "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.Core\\project.json",
+      "projectPath": "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.Core\\Windows10.Study.Library.Core.csproj",
+      "projectJsonPath": "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.Core\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.Background\\Windows10.Study.Library.Background.csproj": {
-              "projectPath": "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.Background\\Windows10.Study.Library.Background.csproj"
+            "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.Background\\Windows10.Study.Library.Background.csproj": {
+              "projectPath": "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.Background\\Windows10.Study.Library.Background.csproj"
             },
-            "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.View\\Windows10.Study.Library.View.csproj": {
-              "projectPath": "D:\\C#\\win10开发\\Windows10.Study.Library\\Windows10.Study.Library.View\\Windows10.Study.Library.View.csproj"
+            "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.View\\Windows10.Study.Library.View.csproj": {
+              "projectPath": "D:\\C#\\Windows10.Study.Library\\Windows10.Study.Library.View\\Windows10.Study.Library.View.csproj"
             }
           }
         }
