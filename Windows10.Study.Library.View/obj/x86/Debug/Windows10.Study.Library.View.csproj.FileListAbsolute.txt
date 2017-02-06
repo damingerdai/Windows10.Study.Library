@@ -48,3 +48,8 @@ D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\pri.res
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\qualifiers.txt
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\qualifiers.txt.intermediate
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\CsharpBasis.xbf
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\CsharpBasis.g.i.cs
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\CsharpBasis.g.cs
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\CsharpBasis.xaml
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\CsharpBasis.xbf

@@ -29,7 +29,8 @@ namespace Windows10.Study.Library.Core
 
         private List<Scenario> scenarios = new List<Scenario>()
         {
-            new Scenario(){ Title="首页",ClassType=typeof(Windows10.Study.Library.View.FirstPage)}
+            new Scenario(){ Title="首页",ClassType=typeof(Windows10.Study.Library.View.FirstPage)},
+            new Scenario(){ Title="C#基础学习",ClassType=typeof(Windows10.Study.Library.View.CsharpBasis)}
         };
 
         public List<Scenario> Scenarios { get { return scenarios; } }
@@ -39,7 +40,16 @@ namespace Windows10.Study.Library.Core
             this.InitializeComponent();
             Current = this;
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+            SystemNavigationManager.GetForCurrentView().BackRequested += MainPage_BackRequested;
+        }
 
+        private void MainPage_BackRequested(object sender, BackRequestedEventArgs e)
+        {
+            if(contentFrame != null && contentFrame.CanGoBack)
+            {
+                e.Handled = true;
+                contentFrame.GoBack();
+            }
         }
 
         private void ToggleButton_Click(object sender, RoutedEventArgs e)

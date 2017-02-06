@@ -107,6 +107,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CsharpBasis.xaml.cs">
+      <DependentUpon>CsharpBasis.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FirstPage.xaml.cs">
       <DependentUpon>FirstPage.xaml</DependentUpon>
     </Compile>
@@ -114,6 +117,10 @@
     <EmbeddedResource Include="Properties\Windows10.Study.Library.View.rd.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="CsharpBasis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FirstPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
