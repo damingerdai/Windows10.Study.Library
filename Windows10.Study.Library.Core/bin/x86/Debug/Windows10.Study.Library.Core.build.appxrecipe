@@ -370,6 +370,9 @@
     <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.dll">
       <PackagePath>Windows10.Study.Library.Background.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.dll">
+      <PackagePath>Windows10.Study.Library.View.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -402,6 +405,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Core.xr.xml">
       <PackagePath>Windows10.Study.Library.Core.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.xr.xml">
+      <PackagePath>Windows10.Study.Library.View\Windows10.Study.Library.View.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\Image\win10.jpg">
+      <PackagePath>Windows10.Study.Library.View\Image\win10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\Image\Windows10.jpg">
+      <PackagePath>Windows10.Study.Library.View\Image\Windows10.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

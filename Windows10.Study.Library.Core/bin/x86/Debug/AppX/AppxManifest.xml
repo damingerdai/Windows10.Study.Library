@@ -39,7 +39,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017 RC" />
     <build:Item Name="OperatingSystem" Version="10.0.15025.1000 (rs_prerelease.170127-1750)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26109.1" />
-    <build:Item Name="ProjectGUID" Value="{f0f4b799-aa0d-4a8a-b162-cae266d051f7}" />
+    <build:Item Name="ProjectGUID" Value="{F0F4B799-AA0D-4A8A-B162-CAE266D051F7}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26109.1" />

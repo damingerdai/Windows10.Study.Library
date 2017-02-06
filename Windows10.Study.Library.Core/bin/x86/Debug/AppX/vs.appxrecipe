@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>ACF56342C7640780C3E3B9D9B3CCB82AA3339144F1DF63BF08AECC4B7D6283A7</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>F3815797C3705AD0DB0449E8049E903D0972FC5471AB5E9E51580563A16335AB</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6_1.0.0.0_x86__sdfkygk1scsfy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6_sdfkygk1scsfy!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-05T11:31:03.443</Modified>
+      <Modified>2017-02-05T14:24:39.149</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Core.exe">
       <PackagePath>entrypoint\Windows10.Study.Library.Core.exe</PackagePath>
-      <Modified>2017-02-05T11:31:01.159</Modified>
+      <Modified>2017-02-05T14:24:37.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\daming\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,6 +492,14 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T15:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.dll">
+      <PackagePath>Windows10.Study.Library.Background.dll</PackagePath>
+      <Modified>2017-02-05T12:33:50.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.dll">
+      <PackagePath>Windows10.Study.Library.View.dll</PackagePath>
+      <Modified>2017-02-05T14:10:52.918</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-02-05T11:20:43.016</Modified>
@@ -532,7 +540,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Core.xr.xml">
       <PackagePath>Windows10.Study.Library.Core.xr.xml</PackagePath>
-      <Modified>2017-02-05T11:31:00.333</Modified>
+      <Modified>2017-02-05T14:23:41.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.xr.xml">
+      <PackagePath>Windows10.Study.Library.View\Windows10.Study.Library.View.xr.xml</PackagePath>
+      <Modified>2017-02-05T14:10:51.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\Image\win10.jpg">
+      <PackagePath>Windows10.Study.Library.View\Image\win10.jpg</PackagePath>
+      <Modified>2017-02-05T13:32:45.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\Image\Windows10.jpg">
+      <PackagePath>Windows10.Study.Library.View\Image\Windows10.jpg</PackagePath>
+      <Modified>2017-02-05T13:32:45.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -541,11 +561,11 @@
     <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-05T11:31:03.101</Modified>
+      <Modified>2017-02-05T14:24:38.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Core\Windows10.Study.Library.Core.exe">
       <PackagePath>Windows10.Study.Library.Core.exe</PackagePath>
-      <Modified>2017-02-05T11:31:03.423</Modified>
+      <Modified>2017-02-05T14:24:39.141</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

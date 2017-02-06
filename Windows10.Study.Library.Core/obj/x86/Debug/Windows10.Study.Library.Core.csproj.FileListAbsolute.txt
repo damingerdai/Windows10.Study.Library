@@ -216,3 +216,6 @@ D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\D
 D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Background.pdb
 D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.Background.pri
 D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\Windows10.Study.Library.Core.csproj.GenerateResource.Cache
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.View.dll
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.View.pdb
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Windows10.Study.Library.View.pri

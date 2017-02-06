@@ -15,3 +15,11 @@ D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\D
 D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\qualifiers.txt
 D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\qualifiers.txt.intermediate
 D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\FirstPage.xbf
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\Windows10.Study.Library.View.xr.xml
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\FirstPage.g.i.cs
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\FirstPage.g.cs
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\FirstPage.xaml
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\FirstPage.xbf
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\XamlSaveStateFile.xml

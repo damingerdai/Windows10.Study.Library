@@ -131,6 +131,10 @@
       <Project>{eb5463b3-9eda-4aa4-83ad-52f2ad3c2388}</Project>
       <Name>Windows10.Study.Library.Background</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Windows10.Study.Library.View\Windows10.Study.Library.View.csproj">
+      <Project>{717854aa-a7ae-44ca-a21b-c0c25c48364d}</Project>
+      <Name>Windows10.Study.Library.View</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

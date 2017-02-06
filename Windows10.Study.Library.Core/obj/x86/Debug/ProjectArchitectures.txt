@@ -1,2 +1,3 @@
 D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\Windows10.Study.Library.Background.csproj;x86
 D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Core\Windows10.Study.Library.Core.csproj;x86
+D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.View\Windows10.Study.Library.View.csproj;x86
