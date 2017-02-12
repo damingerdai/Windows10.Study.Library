@@ -7,10 +7,10 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6" Publisher="CN=daming" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6" Publisher="CN=daming" Version="0.1.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>Windows10.Study.Library.Core</DisplayName>
+    <DisplayName>windows10开发手册</DisplayName>
     <PublisherDisplayName>daming</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -22,9 +22,12 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="Windows10.Study.Library.Core.exe" EntryPoint="Windows10.Study.Library.Core.App">
-      <uap:VisualElements DisplayName="Windows10.Study.Library.Core" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Windows10.Study.Library.Core" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+      <uap:VisualElements DisplayName="Window10开发手册" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Window10开发学习资料汇总" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="win10开发手册"></uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
@@ -34,13 +37,13 @@
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="15.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017 RC" />
-    <build:Item Name="OperatingSystem" Version="10.0.15025.1000 (rs_prerelease.170127-1750)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26109.1" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2017 RC" />
+    <build:Item Name="OperatingSystem" Version="10.0.15031.0 (rs2_release.170204-1546)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26206.0" />
     <build:Item Name="ProjectGUID" Value="{F0F4B799-AA0D-4A8A-B162-CAE266D051F7}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26109.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26206.0" />
     <build:Item Name="MakePri.exe" Version="10.0.14393.795 (rs1_release_sec.170105-1850)" />
   </build:Metadata>
 </Package>

@@ -30,7 +30,8 @@ namespace Windows10.Study.Library.Core
         private List<Scenario> scenarios = new List<Scenario>()
         {
             new Scenario(){ Title="首页",ClassType=typeof(Windows10.Study.Library.View.FirstPage)},
-            new Scenario(){ Title="C#基础学习",ClassType=typeof(Windows10.Study.Library.View.CsharpBasis)}
+            new Scenario(){ Title="C#基础学习",ClassType=typeof(Windows10.Study.Library.View.CsharpBasis)},
+            new Scenario(){ Title="UWP学习",ClassType=typeof(Windows10.Study.Library.View.UWPPage)}
         };
 
         public List<Scenario> Scenarios { get { return scenarios; } }

@@ -8,6 +8,142 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        
+        <Pivot x:Name="CsharpBasisPivot">
+            <PivotItem Header="C#说明">
+                <ScrollViewer x:Name="CsharpIntroduction" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <ScrollViewer.Content>
+                        <RichTextBlock x:Uid="rtTextBlock" TextIndent="38" FontSize="30" FontFamily="微软雅黑">
+                            <Paragraph>
+                                C#是微软公司发布的一种面向对象的、运行于.NET Framework之上的高级程序设计语言。并定于在微软职业开发者论坛(PDC)上登台亮相。C#是微软公司研究员Anders Hejlsberg的最新成果。C#看起来与Java有着惊人的相似；它包括了诸如单一继承、接口、与Java几乎同样的语法和编译成中间代码再运行的过程。但是C#与Java有着明显的不同，它借鉴了Delphi的一个特点，与COM（组件对象模型）是直接集成的，而且它是微软公司 .NET windows网络框架的主角。
+                            </Paragraph>
+                            <Paragraph>
+                                C#是一种安全的、稳定的、简单的、优雅的，由C和C++衍生出来的面向对象的编程语言。它在继承C和C++强大功能的同时去掉了一些它们的复杂特性（例如没有宏以及不允许多重继承）。C#综合了VB简单的可视化操作和C++的高运行效率，以其强大的操作能力、优雅的语法风格、创新的语言特性和便捷的面向组件编程的支持成为.NET开发的首选语言。
+                            </Paragraph>
+                            <Paragraph>
+                                C#是面向对象的编程语言。它使得程序员可以快速地编写各种基于MICROSOFT .NET平台的应用程序，MICROSOFT .NET提供了一系列的工具和服务来最大程度地开发利用计算与通讯领域。
+                            </Paragraph>
+                            <Paragraph>
+                                C#使得C++程序员可以高效的开发程序，且因可调用由 C/C++ 编写的本机原生函数，因此绝不损失C/C++原有的强大的功能。因为这种继承关系，C#与C/C++具有极大的相似性，熟悉类似语言的开发者可以很快的转向C#。
+                            </Paragraph>
+                        </RichTextBlock>
+                    </ScrollViewer.Content>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="推荐书籍">
+                <ScrollViewer x:Name="books" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <ScrollViewer.Content>
+                        <RichTextBlock TextIndent="38" FontSize="20" FontFamily="微软雅黑" Margin="5,0,10,0" RenderTransformOrigin="0.181,0.465">
+                            <Paragraph TextIndent="0" FontStyle="Oblique" FontSize="30">
+                                《C#高级编程》
+                            </Paragraph>
+                            <Paragraph>
+                                《C#高级编程》是（美）内格尔（Nagel.C）等所著，由清华大学出版社出版的图书。
+                            </Paragraph>
+                            <Paragraph TextIndent="0" FontStyle="Oblique">
+                                推荐理由:
+                            </Paragraph>
+                            <Paragraph>
+                                C#经典名著！也是Wrox红皮书中最畅销的品种之一，从第一版开始就名满天下：其第3版被中华读书报、CSDN、《程序员》等机构评选为2005年最权威的十大IT图书之一(第2名)；在中国版协、中国出版科学研究所、(出版参考、杂志组织的“2005年度输出版、引进版优秀图书”评选活动中获得“2005年度引进版科技类优秀图书”奖。第4版面向C#2005，在全面展示．NET新特性的同时继续完善原有的内容，是有一些C#基础知识的学习者或者想迁移到C#的其他程序员全面掌握C#的首选教程。
+                            </Paragraph>
+                            <Paragraph TextIndent="0" FontStyle="Oblique">
+                                购买链接:
+                            </Paragraph>
+                            <Paragraph>
+                                <InlineUIContainer>
+                                    <StackPanel x:Name="CsharpP" Orientation="Vertical">
+                                        <HyperlinkButton NavigateUri="https://item.jd.com/11611762.html" Margin="5,5,10,5">
+                                            <TextBlock FontSize="25">
+                                                京东购买
+                                            </TextBlock>
+                                        </HyperlinkButton>
+                                        <HyperlinkButton NavigateUri="http://product.dangdang.com/23633820.html" Margin="5,5,10,5">
+                                            <TextBlock FontSize="25">
+                                                当当网购买
+                                            </TextBlock>
+                                        </HyperlinkButton>
+                                        <HyperlinkButton NavigateUri="http://pan.baidu.com/s/1dF65N3b" Margin="5,5,10,5">
+                                            <TextBlock FontSize="25">
+                                                百度云下载链接
+												<Run >
+													密码：q82z
+												</Run>
+                                            </TextBlock>
+                                        </HyperlinkButton>
+                                    </StackPanel>
+                                </InlineUIContainer>
+                            </Paragraph>
+                            <Paragraph TextIndent="0" FontSize="30" FontStyle="Oblique">
+                                《C#入门经典》
+                            </Paragraph>
+                            <Paragraph>
+                                《C#入门经典》是2006年清华大学出版社出版的图书，由立波翻译。讲述了C#编程的所有方面，包括C#语言本身、Windows编程、Web编程及数据源的使用等内容。
+                            </Paragraph>
+                            <Paragraph TextIndent="0" FontStyle="Oblique">
+                                推荐理由:
+                            </Paragraph>
+                            <Paragraph>
+                                《C#入门经典(第5版)》是一本成就无数C#程序员的经典名著，厚而不“重”，可帮助您轻松掌握C#的各种编程知识，为您的职业生涯打下坚实的基础，《C#入门经典》自第1版出版以来，全球销量已经达数万册，在中国也有近8万册的销量，已经成为广大初级C#程序员首选的入门教程，也是目前国内市场上最畅销的C#专业店销书，曾两次被CSDN、《程序员》等机构和读者评选为“最受读者喜爱的十大技术开发类图书”！第4版面向C#2008和．NET 3．5 继续完善原有内容，同时全面介绍．NET的最新技术和特性。
+                            </Paragraph>
+                            <Paragraph TextIndent="0" FontStyle="Oblique">
+                                购买链接:
+                            </Paragraph>
+                            <Paragraph>
+                                <InlineUIContainer>
+                                    <StackPanel x:Name="CsharpB" Orientation="Vertical">
+                                        <HyperlinkButton NavigateUri="https://item.jd.com/12005782.html" Margin="5,5,10,5">
+                                            京东购买
+                                        </HyperlinkButton>
+										<HyperlinkButton NavigateUri="http://product.dangdang.com/24011143.html" Margin="5,5,10,5">
+                                            <TextBlock FontSize="25">
+                                                当当网购买
+                                            </TextBlock>
+                                        </HyperlinkButton>
+                                        <HyperlinkButton NavigateUri="http://pan.baidu.com/s/1eRAXstW" Margin="5,5,10,5">
+                                            <TextBlock FontSize="25">
+                                                百度云下载链接
+												<Run >
+													密码：1xbr (说明：这是第5版)
+												</Run>
+                                            </TextBlock>
+                                        </HyperlinkButton>
+                                    </StackPanel>
+                                </InlineUIContainer>
+                            </Paragraph>
+                        </RichTextBlock>
+                    </ScrollViewer.Content>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="推荐视频">
+                <RichTextBlock TextIndent="38" FontSize="20" FontFamily="微软雅黑" Margin="5,0,10,0" RenderTransformOrigin="0.181,0.465">
+                    <Paragraph TextIndent="0" FontStyle="Oblique">
+                        C#基础视频
+                    </Paragraph>
+                    <Paragraph>
+                        主要讲解C#中的基本语法，包括注释、vs常用的快捷键、变量的作用、变量使用规则、赋值运算符、占位符、接受用户输入、数据类型转换等基础知识。均是初学者入门必备知识。
+                    </Paragraph>
+                    <Paragraph >
+                        <Hyperlink NavigateUri="http://pan.baidu.com/s/1eR4lVou">百度云下载</Hyperlink>
+                        <InlineUIContainer>
+                            <TextBlock Margin="10,0,0,0">
+                                密码：6uhs
+                            </TextBlock>
+                        </InlineUIContainer>
+                    </Paragraph>
+                </RichTextBlock>
+            </PivotItem>
+        </Pivot>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="680"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Value="Horizontal" Target="CsharpP.Orientation"/>
+                        <Setter Value="Horizontal" Target="CsharpB.Orientation"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
     </Grid>
 </Page>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26127.3
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows10.Study.Library.Core", "Windows10.Study.Library.Core\Windows10.Study.Library.Core.csproj", "{F0F4B799-AA0D-4A8A-B162-CAE266D051F7}"
 EndProject

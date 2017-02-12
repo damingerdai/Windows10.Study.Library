@@ -123,6 +123,12 @@
     <Style x:Key="ScenarioDescriptionTextStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyTextBlockStyle}">
     </Style>
 
+    <Style x:Key="PageBasicTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyTextBlockStyle}">
+        <Setter Property="FontFamily" Value="微软雅黑"/>
+        <Setter Property="FontSize" Value="30"/>
+    </Style>
+
+ 
     <Style x:Key="BaseMessageStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyTextBlockStyle}">
         <Setter Property="Margin" Value="0,0,0,5"/>
     </Style>

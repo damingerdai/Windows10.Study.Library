@@ -26,5 +26,6 @@ namespace Windows10.Study.Library.View
         {
             this.InitializeComponent();
         }
+
     }
 }
