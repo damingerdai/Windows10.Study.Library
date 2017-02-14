@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6" Publisher="CN=daming" Version="0.1.0.0" />
-  <mp:PhoneIdentity PhoneProductId="c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="42372.win10" Publisher="CN=FAC27C3D-B35B-4C05-BE1A-7025EB0453C1" Version="0.3.0.0" />
+  <mp:PhoneIdentity PhoneProductId="85c33695-c1ab-40d0-93c2-538b067131f4" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>windows10开发手册</DisplayName>
-    <PublisherDisplayName>daming</PublisherDisplayName>
+    <DisplayName>win10开发手册</DisplayName>
+    <PublisherDisplayName>小2</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>

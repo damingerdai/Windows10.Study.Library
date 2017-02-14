@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Windows10.Study.Library.Core.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Windows10.Study.Library.Core"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style x:Key="AboutPageForTextBlock" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Page.Resources>
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock  Style="{StaticResource AboutPageForTextBlock}">
+                Windows10开发手册
+            </TextBlock>
+            <TextBlock Style="{StaticResource AboutPageForTextBlock}">
+                作者：小2
+            </TextBlock>
+            <TextBlock Style="{StaticResource AboutPageForTextBlock}">
+                版本：0.4.0
+            </TextBlock>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+                <TextBlock Margin="0,6,12,0" FontSize="25">
+                    源代码：
+                </TextBlock>
+                <HyperlinkButton Content="GitHub" FontSize="25" NavigateUri="https://github.com/damingerdai/Windows10.Study.Library"  />
+            </StackPanel>
+            
+        </StackPanel>
+    </Grid>
+</Page>

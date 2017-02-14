@@ -12,7 +12,7 @@
             <PivotItem Header="C#说明">
                 <ScrollViewer x:Name="CsharpIntroduction" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
                     <ScrollViewer.Content>
-                        <RichTextBlock x:Uid="rtTextBlock" TextIndent="38" FontSize="30" FontFamily="微软雅黑">
+                        <RichTextBlock x:Uid="rtTextBlock" TextIndent="38" FontSize="20" FontFamily="微软雅黑" >
                             <Paragraph>
                                 C#是微软公司发布的一种面向对象的、运行于.NET Framework之上的高级程序设计语言。并定于在微软职业开发者论坛(PDC)上登台亮相。C#是微软公司研究员Anders Hejlsberg的最新成果。C#看起来与Java有着惊人的相似；它包括了诸如单一继承、接口、与Java几乎同样的语法和编译成中间代码再运行的过程。但是C#与Java有着明显的不同，它借鉴了Delphi的一个特点，与COM（组件对象模型）是直接集成的，而且它是微软公司 .NET windows网络框架的主角。
                             </Paragraph>
@@ -115,7 +115,7 @@
             </PivotItem>
             <PivotItem Header="推荐视频">
                 <RichTextBlock TextIndent="38" FontSize="20" FontFamily="微软雅黑" Margin="5,0,10,0" RenderTransformOrigin="0.181,0.465">
-                    <Paragraph TextIndent="0" FontStyle="Oblique">
+                    <Paragraph TextIndent="0" FontStyle="Oblique" FontSize="30">
                         C#基础视频
                     </Paragraph>
                     <Paragraph>

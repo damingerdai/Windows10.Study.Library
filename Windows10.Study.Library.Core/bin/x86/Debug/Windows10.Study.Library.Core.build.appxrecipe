@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>c35ea7a0-84a5-4fb1-bd05-2f5082bc9ce6</PackageIdentityName>
-    <PackageIdentityPublisher>CN=daming</PackageIdentityPublisher>
+    <PackageIdentityName>85c33695-c1ab-40d0-93c2-538b067131f4</PackageIdentityName>
+    <PackageIdentityPublisher>CN=FAC27C3D-B35B-4C05-BE1A-7025EB0453C1</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -412,23 +412,11 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\Image\CsharpBegining.png">
-      <PackagePath>Windows10.Study.Library.View\Image\CsharpBegining.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\Image\ProCsharp.png">
-      <PackagePath>Windows10.Study.Library.View\Image\ProCsharp.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Image\win10.jpg">
       <PackagePath>Image\win10.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Image\Windows10.jpg">
       <PackagePath>Image\Windows10.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\Image\win10.jpg">
-      <PackagePath>Windows10.Study.Library.View\Image\win10.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\Image\Windows10.jpg">
-      <PackagePath>Windows10.Study.Library.View\Image\Windows10.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

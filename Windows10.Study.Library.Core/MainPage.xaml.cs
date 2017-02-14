@@ -29,12 +29,19 @@ namespace Windows10.Study.Library.Core
 
         private List<Scenario> scenarios = new List<Scenario>()
         {
-            new Scenario(){ Title="首页",ClassType=typeof(Windows10.Study.Library.View.FirstPage)},
-            new Scenario(){ Title="C#基础学习",ClassType=typeof(Windows10.Study.Library.View.CsharpBasis)},
-            new Scenario(){ Title="UWP学习",ClassType=typeof(Windows10.Study.Library.View.UWPPage)}
+           // new Scenario(){ Title="首页",ClassType=typeof(Windows10.Study.Library.View.FirstPage)},
+            new Scenario(){ FontFamily = new FontFamily("Segoe MDL2 Assets"),Icon="\xE1D2",Title="C#基础学习",ClassType=typeof(Windows10.Study.Library.View.CsharpBasis)},
+            new Scenario(){ FontFamily = new FontFamily("Segoe MDL2 Assets"),Icon="\xE1D2",Title="UWP学习",ClassType=typeof(Windows10.Study.Library.View.UWPPage)}
+        };
+
+        private List<Scenario> foot = new List<Scenario>()
+        {
+             new Scenario(){ FontFamily = new FontFamily("Segoe MDL2 Assets"),Icon="\xE170",Title="关于",ClassType=typeof(AboutPage)}
         };
 
         public List<Scenario> Scenarios { get { return scenarios; } }
+
+        public List<Scenario> Foot { get { return foot; } }
 
         public MainPage()
         {
@@ -46,10 +53,15 @@ namespace Windows10.Study.Library.Core
 
         private void MainPage_BackRequested(object sender, BackRequestedEventArgs e)
         {
-            if(contentFrame != null && contentFrame.CanGoBack)
+            if (contentFrame != null && contentFrame.CanGoBack)
             {
                 e.Handled = true;
                 contentFrame.GoBack();
+            }
+            else if(this.Frame != null && this.Frame.CanGoBack)
+            {
+                e.Handled = true;
+                this.Frame.GoBack();
             }
         }
 
@@ -71,40 +83,51 @@ namespace Windows10.Study.Library.Core
        
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            // Populate the scenario list from the SampleConfiguration.cs file
-            ScenarioControl.ItemsSource = scenarios;
-            if (Window.Current.Bounds.Width < 640)
-            {
-                ScenarioControl.SelectedIndex = -1;
-            }
-            else
-            {
-                ScenarioControl.SelectedIndex = 0;
-            }
+            this.contentFrame.Navigate(typeof(Windows10.Study.Library.View.FirstPage));
         }
 
-        private void ScenariosLinkClick(object sender, ItemClickEventArgs e)
+        private void ScenarioControl_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Scenario scenario = e.ClickedItem as Scenario;
-            if (scenario != null && scenario.ClassType != null)
-                contentFrame.Navigate(scenario.ClassType);
-            splitView.IsPaneOpen = false;
-        }
-
-        private void ScenarioControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            ListBox listBox = sender as ListBox;
-            if (listBox != null)
+            foreach(Scenario sc in  Scenarios)
             {
-                Scenario s = listBox.SelectedItems[0] as Scenario;
-                if(s != null)
+                sc.Selected = Visibility.Collapsed;
+            }
+            foreach(Scenario sc in Foot)
+            {
+                sc.Selected = Visibility.Collapsed;
+            }
+            Scenario s = e.ClickedItem as Scenario;
+            s.Selected = Visibility.Visible;
+            if(s.ClassType != null)
+            {
+                contentFrame.Navigate(s.ClassType);
+                if (Window.Current.Bounds.Width < 640)
                 {
-                    contentFrame.Navigate(s.ClassType);
-                    if (Window.Current.Bounds.Width < 640)
-                    {
-                        splitView.IsPaneOpen = false;
-                    }
+                    splitView.IsPaneOpen = false;
                 }
+            }
+        }
+
+        private void About_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AboutPage));
+        }
+
+        private void FootScenario_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            foreach (Scenario sc in Scenarios)
+            {
+                sc.Selected = Visibility.Collapsed;
+            }
+            foreach (Scenario sc in Foot)
+            {
+                sc.Selected = Visibility.Collapsed;
+            }
+            Scenario s = e.ClickedItem as Scenario;
+            s.Selected = Visibility.Visible;
+            if (s.ClassType != null)
+            {
+                this.Frame.Navigate(s.ClassType);
             }
         }
     }

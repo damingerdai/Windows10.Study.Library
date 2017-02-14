@@ -18,7 +18,6 @@ D:\C#\win10开发\Windows10.Study.Library\Windows10.Study.Library.Background\obj
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.dll
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.pdb
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\bin\x86\Debug\Windows10.Study.Library.Background.pri
-D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\Windows10.Study.Library.Background.csprojResolveAssemblyReference.cache
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\Windows10.Study.Library.Background.dll
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\Windows10.Study.Library.Background.pdb
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\priconfig.xml
@@ -32,3 +31,4 @@ D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\p
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\qualifiers.txt
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\qualifiers.txt.intermediate
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.Background\obj\x86\Debug\Windows10.Study.Library.Background.csprojResolveAssemblyReference.cache

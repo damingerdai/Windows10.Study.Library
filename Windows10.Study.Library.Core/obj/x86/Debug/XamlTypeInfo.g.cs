@@ -156,27 +156,31 @@ namespace Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
-            _typeNameTable[0] = "Windows10.Study.Library.Core.ScenarioBindingConverter";
-            _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "Windows10.Study.Library.Core.MainPage";
-            _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[4] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[5] = "System.Collections.Generic.List`1<Windows10.Study.Library.Background.Scenario>";
+            _typeNameTable = new string[11];
+            _typeNameTable[0] = "Windows10.Study.Library.Core.AboutPage";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "Windows10.Study.Library.Core.MainPage";
+            _typeNameTable[4] = "System.Collections.Generic.List`1<Windows10.Study.Library.Background.Scenario>";
+            _typeNameTable[5] = "Object";
             _typeNameTable[6] = "Windows10.Study.Library.Background.Scenario";
-            _typeNameTable[7] = "String";
-            _typeNameTable[8] = "System.Type";
+            _typeNameTable[7] = "Windows.UI.Xaml.Media.FontFamily";
+            _typeNameTable[8] = "String";
+            _typeNameTable[9] = "System.Type";
+            _typeNameTable[10] = "Windows.UI.Xaml.Visibility";
 
-            _typeTable = new global::System.Type[9];
-            _typeTable[0] = typeof(global::Windows10.Study.Library.Core.ScenarioBindingConverter);
-            _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::Windows10.Study.Library.Core.MainPage);
-            _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[5] = typeof(global::System.Collections.Generic.List<global::Windows10.Study.Library.Background.Scenario>);
+            _typeTable = new global::System.Type[11];
+            _typeTable[0] = typeof(global::Windows10.Study.Library.Core.AboutPage);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::Windows10.Study.Library.Core.MainPage);
+            _typeTable[4] = typeof(global::System.Collections.Generic.List<global::Windows10.Study.Library.Background.Scenario>);
+            _typeTable[5] = typeof(global::System.Object);
             _typeTable[6] = typeof(global::Windows10.Study.Library.Background.Scenario);
-            _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::System.Type);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.Media.FontFamily);
+            _typeTable[8] = typeof(global::System.String);
+            _typeTable[9] = typeof(global::System.Type);
+            _typeTable[10] = typeof(global::Windows.UI.Xaml.Visibility);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -211,11 +215,11 @@ namespace Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_ScenarioBindingConverter() { return new global::Windows10.Study.Library.Core.ScenarioBindingConverter(); }
-        private object Activate_2_MainPage() { return new global::Windows10.Study.Library.Core.MainPage(); }
-        private object Activate_5_List() { return new global::System.Collections.Generic.List<global::Windows10.Study.Library.Background.Scenario>(); }
+        private object Activate_0_AboutPage() { return new global::Windows10.Study.Library.Core.AboutPage(); }
+        private object Activate_3_MainPage() { return new global::Windows10.Study.Library.Core.MainPage(); }
+        private object Activate_4_List() { return new global::System.Collections.Generic.List<global::Windows10.Study.Library.Background.Scenario>(); }
         private object Activate_6_Scenario() { return new global::Windows10.Study.Library.Background.Scenario(); }
-        private void VectorAdd_5_List(object instance, object item)
+        private void VectorAdd_4_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows10.Study.Library.Background.Scenario>)instance;
             var newItem = (global::Windows10.Study.Library.Background.Scenario)item;
@@ -232,56 +236,68 @@ namespace Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Windows10.Study.Library.Core.ScenarioBindingConverter
-                userType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_0_ScenarioBindingConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 1:   //  Object
-                xamlType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 2:   //  Windows10.Study.Library.Core.MainPage
+            case 0:   //  Windows10.Study.Library.Core.AboutPage
                 userType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_2_MainPage;
-                userType.AddMemberName("Scenarios");
+                userType.Activator = Activate_0_AboutPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 3:   //  Windows.UI.Xaml.Controls.Page
+            case 1:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Windows.UI.Xaml.Controls.UserControl
+            case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  System.Collections.Generic.List`1<Windows10.Study.Library.Background.Scenario>
+            case 3:   //  Windows10.Study.Library.Core.MainPage
+                userType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_MainPage;
+                userType.AddMemberName("Scenarios");
+                userType.AddMemberName("Foot");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  System.Collections.Generic.List`1<Windows10.Study.Library.Background.Scenario>
                 userType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_5_List;
+                userType.CollectionAdd = VectorAdd_4_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
+                break;
+
+            case 5:   //  Object
+                xamlType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 6:   //  Windows10.Study.Library.Background.Scenario
                 userType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_6_Scenario;
+                userType.AddMemberName("FontFamily");
+                userType.AddMemberName("Icon");
                 userType.AddMemberName("Title");
                 userType.AddMemberName("ClassType");
+                userType.AddMemberName("Selected");
                 xamlType = userType;
                 break;
 
-            case 7:   //  String
+            case 7:   //  Windows.UI.Xaml.Media.FontFamily
                 xamlType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  System.Type
+            case 8:   //  String
+                xamlType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  System.Type
                 userType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
+                break;
+
+            case 10:   //  Windows.UI.Xaml.Visibility
+                xamlType = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -347,25 +363,60 @@ namespace Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo
             var that = (global::Windows10.Study.Library.Core.MainPage)instance;
             return that.Scenarios;
         }
-        private object get_1_Scenario_Title(object instance)
+        private object get_1_Scenario_FontFamily(object instance)
+        {
+            var that = (global::Windows10.Study.Library.Background.Scenario)instance;
+            return that.FontFamily;
+        }
+        private void set_1_Scenario_FontFamily(object instance, object Value)
+        {
+            var that = (global::Windows10.Study.Library.Background.Scenario)instance;
+            that.FontFamily = (global::Windows.UI.Xaml.Media.FontFamily)Value;
+        }
+        private object get_2_Scenario_Icon(object instance)
+        {
+            var that = (global::Windows10.Study.Library.Background.Scenario)instance;
+            return that.Icon;
+        }
+        private void set_2_Scenario_Icon(object instance, object Value)
+        {
+            var that = (global::Windows10.Study.Library.Background.Scenario)instance;
+            that.Icon = (global::System.String)Value;
+        }
+        private object get_3_Scenario_Title(object instance)
         {
             var that = (global::Windows10.Study.Library.Background.Scenario)instance;
             return that.Title;
         }
-        private void set_1_Scenario_Title(object instance, object Value)
+        private void set_3_Scenario_Title(object instance, object Value)
         {
             var that = (global::Windows10.Study.Library.Background.Scenario)instance;
             that.Title = (global::System.String)Value;
         }
-        private object get_2_Scenario_ClassType(object instance)
+        private object get_4_Scenario_ClassType(object instance)
         {
             var that = (global::Windows10.Study.Library.Background.Scenario)instance;
             return that.ClassType;
         }
-        private void set_2_Scenario_ClassType(object instance, object Value)
+        private void set_4_Scenario_ClassType(object instance, object Value)
         {
             var that = (global::Windows10.Study.Library.Background.Scenario)instance;
             that.ClassType = (global::System.Type)Value;
+        }
+        private object get_5_Scenario_Selected(object instance)
+        {
+            var that = (global::Windows10.Study.Library.Background.Scenario)instance;
+            return that.Selected;
+        }
+        private void set_5_Scenario_Selected(object instance, object Value)
+        {
+            var that = (global::Windows10.Study.Library.Background.Scenario)instance;
+            that.Selected = (global::Windows.UI.Xaml.Visibility)Value;
+        }
+        private object get_6_MainPage_Foot(object instance)
+        {
+            var that = (global::Windows10.Study.Library.Core.MainPage)instance;
+            return that.Foot;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -381,17 +432,41 @@ namespace Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo
                 xamlMember.Getter = get_0_MainPage_Scenarios;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "Windows10.Study.Library.Background.Scenario.FontFamily":
+                userType = (global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows10.Study.Library.Background.Scenario");
+                xamlMember = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlMember(this, "FontFamily", "Windows.UI.Xaml.Media.FontFamily");
+                xamlMember.Getter = get_1_Scenario_FontFamily;
+                xamlMember.Setter = set_1_Scenario_FontFamily;
+                break;
+            case "Windows10.Study.Library.Background.Scenario.Icon":
+                userType = (global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows10.Study.Library.Background.Scenario");
+                xamlMember = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlMember(this, "Icon", "String");
+                xamlMember.Getter = get_2_Scenario_Icon;
+                xamlMember.Setter = set_2_Scenario_Icon;
+                break;
             case "Windows10.Study.Library.Background.Scenario.Title":
                 userType = (global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows10.Study.Library.Background.Scenario");
                 xamlMember = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlMember(this, "Title", "String");
-                xamlMember.Getter = get_1_Scenario_Title;
-                xamlMember.Setter = set_1_Scenario_Title;
+                xamlMember.Getter = get_3_Scenario_Title;
+                xamlMember.Setter = set_3_Scenario_Title;
                 break;
             case "Windows10.Study.Library.Background.Scenario.ClassType":
                 userType = (global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows10.Study.Library.Background.Scenario");
                 xamlMember = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlMember(this, "ClassType", "System.Type");
-                xamlMember.Getter = get_2_Scenario_ClassType;
-                xamlMember.Setter = set_2_Scenario_ClassType;
+                xamlMember.Getter = get_4_Scenario_ClassType;
+                xamlMember.Setter = set_4_Scenario_ClassType;
+                break;
+            case "Windows10.Study.Library.Background.Scenario.Selected":
+                userType = (global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows10.Study.Library.Background.Scenario");
+                xamlMember = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlMember(this, "Selected", "Windows.UI.Xaml.Visibility");
+                xamlMember.Getter = get_5_Scenario_Selected;
+                xamlMember.Setter = set_5_Scenario_Selected;
+                break;
+            case "Windows10.Study.Library.Core.MainPage.Foot":
+                userType = (global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows10.Study.Library.Core.MainPage");
+                xamlMember = new global::Windows10.Study.Library.Core.Windows10_Study_Library_Core_XamlTypeInfo.XamlMember(this, "Foot", "System.Collections.Generic.List`1<Windows10.Study.Library.Background.Scenario>");
+                xamlMember.Getter = get_6_MainPage_Foot;
+                xamlMember.SetIsReadOnly();
                 break;
             }
             return xamlMember;

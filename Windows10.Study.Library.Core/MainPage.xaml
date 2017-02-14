@@ -7,11 +7,62 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     
-    <Page.Resources>
+    <!--"<Page.Resources>
         <local:ScenarioBindingConverter x:Key="ScenarioConverter"></local:ScenarioBindingConverter>
+    </Page.Resources>-->
+    <Page.Resources>
+        <!--菜单的数据模板-->
+        <DataTemplate x:Key="DataTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="48" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Rectangle Fill="{ThemeResource SystemControlBackgroundAccentBrush}" 
+                           Visibility="{Binding Selected, Mode=TwoWay}" 
+                           HorizontalAlignment="Left" Width="5" Height="48" />
+
+                <FontIcon FontFamily="{Binding FontFamily}" Glyph="{Binding Icon}" Foreground="White" 
+                          VerticalAlignment="Center" 
+                          Margin="-2,0,0,0" Width="48" Height="48" />
+
+                <TextBlock Grid.Column="1" 
+                           Text="{Binding Title}" Foreground="White" 
+                           Margin="12,0,0,0" VerticalAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+        <!--ListViewItem样式定制-->
+        <Style x:Key="NavMenuItemContainerStyle" TargetType="ListViewItem">
+            <Setter Property="MinWidth" Value="{StaticResource SplitViewCompactPaneThemeLength}"/>
+            <Setter Property="Height" Value="48"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="UseSystemFocusVisuals" Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListViewItem">
+                        <ListViewItemPresenter ContentTransitions="{TemplateBinding ContentTransitions}"
+                        Control.IsTemplateFocusTarget="True"
+                        SelectionCheckMarkVisualEnabled="False"
+                        PointerOverBackground="{ThemeResource SystemControlHighlightListLowBrush}"
+                        PointerOverForeground="{ThemeResource ListViewItemForegroundPointerOver}"
+                        SelectedBackground="Transparent"
+                        SelectedForeground="{ThemeResource SystemControlForegroundAccentBrush}"
+                        SelectedPointerOverBackground="{ThemeResource SystemControlHighlightListLowBrush}"
+                        PressedBackground="{ThemeResource SystemControlHighlightListMediumBrush}"
+                        SelectedPressedBackground="{ThemeResource SystemControlHighlightListMediumBrush}"
+                        DisabledOpacity="{ThemeResource ListViewItemDisabledThemeOpacity}"
+                        HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                        VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
+                        ContentMargin="{TemplateBinding Padding}"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Page.Resources>
 
-     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState>
@@ -42,7 +93,34 @@
 
         <SplitView x:Name="splitView" IsPaneOpen="True"  DisplayMode="Inline" Grid.Row="1">
             <SplitView.Pane>
-                <RelativePanel Margin="10,0,0,0">
+				<Grid Background="#CC000000">
+					<Grid.RowDefinitions>
+						<!--空出button的高度-->
+						<RowDefinition Height="48"/>
+						<RowDefinition Height="*"/>
+						<RowDefinition Height="Auto"/>
+					</Grid.RowDefinitions>
+                    <TextBlock x:Name="splitViewTitle" Text="Windows10开发学习" Style="{StaticResource SampleHeaderTextStyle}" TextWrapping="Wrap" Margin="0,10,0,0"/>
+					<!--一级菜单-->
+                    <ListView Name="ScenarioControl" 
+                              Grid.Row="1" VerticalAlignment="Top" 
+                              SelectionMode="None" IsItemClickEnabled="True" 
+                              ItemTemplate="{StaticResource DataTemplate}" 
+                              ItemsSource="{x:Bind Path=Scenarios}"
+                              ItemContainerStyle="{StaticResource NavMenuItemContainerStyle}"  
+                              ItemClick="ScenarioControl_ItemClick"/>
+                    <!--二级菜单-->
+                    <ListView x:Name="FootScenario" 
+                              Grid.Row="2" VerticalAlignment="Bottom" 
+                              SelectionMode="None" IsItemClickEnabled="True" 
+                              ItemTemplate="{StaticResource DataTemplate}" 
+                              ItemsSource="{x:Bind Path=Foot}"
+                              ItemContainerStyle="{StaticResource NavMenuItemContainerStyle}" 
+                              BorderBrush="{ThemeResource SystemControlBackgroundAccentBrush}" BorderThickness="0,1,0,0" 
+                              ItemClick="FootScenario_ItemClick"/>
+
+                </Grid>
+                <!--<RelativePanel Margin="10,0,0,0">
                     <TextBlock x:Name="splitViewTitle" Text="Windows10开发学习" Style="{StaticResource SampleHeaderTextStyle}" TextWrapping="Wrap" Margin="0,10,0,0"/>
                     <ListBox x:Name="ScenarioControl" ItemsSource="{x:Bind Path=scenarios}"  SelectionMode="Single"  HorizontalAlignment="Left" Background="Transparent" BorderThickness="0"
                  VerticalAlignment="Top" RelativePanel.Below="splitViewTitle" Margin="0,10,0,0" RelativePanel.Above="FooterPanel" FontSize="25" SelectionChanged="ScenarioControl_SelectionChanged">
@@ -52,11 +130,12 @@
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
-                    <StackPanel x:Name="FooterPanel" Orientation="Horizontal" RelativePanel.AlignBottomWithPanel="True" >
-                        <TextBlock Text="源代码" FontStyle="Italic" FontSize="20" Margin="2,2,5,2"/>
+                    <StackPanel x:Name="FooterPanel" Orientation="Horizontal"  RelativePanel.AlignBottomWithPanel="True" Margin="14,24,0,24" >
+                        <SymbolIcon Symbol="Emoji2" Margin="10,2,10,2"/>
+                        <TextBlock x:Name="About" Text="关于" FontStyle="Italic" FontSize="20" Margin="10,2,5,2" VerticalAlignment="Center"  Tapped="About_Tapped"/>
                         <HyperlinkButton Content="GitHub" NavigateUri="https://github.com/damingerdai/Windows10.Study.Library" FontSize="20" Style="{StaticResource HyperlinkStyle}" />
                     </StackPanel>
-                </RelativePanel>
+                </RelativePanel>-->
             </SplitView.Pane>
             <RelativePanel>
                 <Frame x:Name="contentFrame" Margin="0,5,0,0"/>

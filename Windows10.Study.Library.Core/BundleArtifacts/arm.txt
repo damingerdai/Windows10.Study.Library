@@ -1,2 +1,2 @@
-MainPackage=D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\ARM\Debug\Windows10.Study.Library.Core_0.1.0.0_ARM_Debug.appx
-SymbolPackage=C:\Users\daming\Desktop\Windows10.Study.Library.Core_0.1.0.0_Debug_Test\Windows10.Study.Library.Core_0.1.0.0_ARM_Debug.appxsym
+MainPackage=D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\ARM\Release\Windows10.Study.Library.Core_0.3.0.0_ARM.appx
+SymbolPackage=D:\win10项目\0.3.0版\Windows10.Study.Library.Core_0.3.0.0_Test\Windows10.Study.Library.Core_0.3.0.0_ARM.appxsym

@@ -443,3 +443,8 @@ D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\Project
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\Styles\Styles.xbf
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\Styles\Styles.xaml
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\Styles\Styles.xbf
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x86\Debug\AboutPage.xbf
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\AboutPage.g.i.cs
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\AboutPage.g.cs
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\AboutPage.xaml
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\obj\x86\Debug\AboutPage.xbf

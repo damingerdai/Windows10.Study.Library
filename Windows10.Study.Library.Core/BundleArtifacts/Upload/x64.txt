@@ -1,0 +1,2 @@
+MainPackage=D:\C#\Windows10.Study.Library\Windows10.Study.Library.Core\bin\x64\Release\Upload\Windows10.Study.Library.Core_0.3.0.0_x64.appx
+SymbolPackage=D:\win10项目\0.3.0版\Windows10.Study.Library.Core_0.3.0.0\Windows10.Study.Library.Core_0.3.0.0_x64.appxsym

@@ -10,7 +10,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <ScrollViewer x:Name="scrollViewer" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
             <ScrollViewer.Content>
-                <RichTextBlock x:Name="rtTextBlock" TextIndent="38" FontSize="30">
+                <RichTextBlock x:Name="rtTextBlock" TextIndent="38" FontSize="20" FontFamily="微软雅黑">
                     <Paragraph TextIndent="0">
                         <InlineUIContainer>
                             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >

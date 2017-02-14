@@ -12,7 +12,7 @@
             <PivotItem Header="UWP说明">
                 <ScrollViewer x:Name="UWPIntroduction" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
                     <ScrollViewer.Content>
-                        <RichTextBlock x:Uid="rtTextBlock" TextIndent="38" FontSize="30" FontFamily="微软雅黑">
+                        <RichTextBlock x:Uid="rtTextBlock" TextIndent="38" FontSize="20" FontFamily="微软雅黑">
                             <Paragraph>
                                 UWP即Windows 10 中的Universal Windows Platform简称。即Windows通用应用平台，在Win 10 Mobile/Surface(Windows平板电脑）/PC/Xbox/HoloLens等平台上运行，uwp不同于传统pc上的exe应用也跟只适用于手机端的app有本质区别。它并不是为某一个终端而设计，而是可以在所有windows10设备上运行。
                             </Paragraph>
@@ -36,8 +36,8 @@
                 <ScrollViewer x:Name="books" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
                     <ScrollViewer.Content>
                         <RichTextBlock TextIndent="38" FontSize="20" FontFamily="微软雅黑" Margin="5,0,10,0" RenderTransformOrigin="0.181,0.465">
-                            <Paragraph TextIndent="0" FontStyle="Oblique" FontSize="30">
-                                《深入浅出：Windows 10通用应用开发 》
+                            <Paragraph TextIndent="0" FontStyle="Oblique" FontSize="30" >
+                                《深入浅出：Windows 10通用应用开发》
                             </Paragraph>
                             <Paragraph TextIndent="0" FontSize="25" FontStyle="Oblique">
                                 编辑推荐
@@ -96,7 +96,10 @@
                                 <InlineUIContainer>
                                     <StackPanel Orientation="Vertical">
                                         <HyperlinkButton NavigateUri="https://item.jd.com/11777562.html" Margin="5,5,10,5">
-                                            京东购买
+                                            <TextBlock FontSize="25">
+                                                   京东购买
+                                            </TextBlock>
+                                         
                                         </HyperlinkButton>
                                         <HyperlinkButton NavigateUri="http://product.dangdang.com/23781712.html" Margin="5,5,10,5">
                                             <TextBlock FontSize="25">
@@ -112,7 +115,7 @@
             </PivotItem>
             <PivotItem Header="推荐视频">
                 <RichTextBlock TextIndent="38" FontSize="20" FontFamily="微软雅黑" Margin="5,0,10,0" RenderTransformOrigin="0.181,0.465">
-                    <Paragraph TextIndent="0" FontStyle="Oblique">
+                    <Paragraph TextIndent="0" FontStyle="Oblique" FontSize="30">
                         Win10开发视频
                     </Paragraph>
                     <Paragraph>
