@@ -58,3 +58,8 @@ D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\UWPPage
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\UWPPage.g.cs
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\UWPPage.xaml
 D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\UWPPage.xbf
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\bin\x86\Debug\XAMLPage.xbf
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\XAMLPage.g.i.cs
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\XAMLPage.g.cs
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\XAMLPage.xaml
+D:\C#\Windows10.Study.Library\Windows10.Study.Library.View\obj\x86\Debug\XAMLPage.xbf

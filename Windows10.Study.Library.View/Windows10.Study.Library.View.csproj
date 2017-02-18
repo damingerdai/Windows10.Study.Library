@@ -117,6 +117,9 @@
     <Compile Include="UWPPage.xaml.cs">
       <DependentUpon>UWPPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="XAMLPage.xaml.cs">
+      <DependentUpon>XAMLPage.xaml</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Windows10.Study.Library.View.rd.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +132,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UWPPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="XAMLPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
